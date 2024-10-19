@@ -1,0 +1,55 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background: url('./images/pixelcut-export.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    height: 70%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.img {
+    border-radius: 150px;
+    padding: 20px;
+}
+
+nav ul {
+    padding: 2px;
+    background-color: aquamarine;
+    margin-top: -8px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 66px;
+}
+
+section {
+    text-align: left;
+
+
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    border-radius: 50px;
+    box-shadow: 10px;
+}
